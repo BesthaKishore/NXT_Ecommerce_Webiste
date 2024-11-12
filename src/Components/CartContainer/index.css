@@ -1,0 +1,236 @@
+.cart_items_container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.emptycard_view_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.no_cart_image{
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.emptyCard_heading{
+    font-size: 20px;
+    color: #1e293b;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+
+.shop_now{
+    width: 135px;
+    height: 45px;
+    background-color: #0b69ff;
+    color: #ffffff;
+    font-size: 16px;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.Show_add_cart_view_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.show_add_cart_view_heading{
+    font-size: 30px;
+    color: #1e293b;
+    font-weight: 800;
+}
+
+.Remove_all{
+   color: #0b69ff;
+   font-size: 18px;
+   font-weight: 600;
+   align-self: flex-end;
+   background-color: transparent;
+   border: 0px;
+   outline: none;
+   cursor: pointer;
+   margin: 8px 0;
+}
+
+.Show_data_bg_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0px 4px 36px #bfbfbf;
+    border-radius: 10px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.show_data_image{
+    width: 100px;
+}
+
+.show_data_heading{
+    font-size: 18px;
+    color: #171f46;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.show_data_brand{
+    font-size: 14px;
+    color: #616e7c;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.Show_data_card_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show_data_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px 8px;
+}
+
+.PriceAndRemoveContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.Show_data_price{
+    font-size: 18px;
+    color: #0b69ff;
+    font-weight: 600;
+}
+
+.Desktop_remove_btn{
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+.Mobile_remove_btn{
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #616e7c;
+    font-weight: 600;
+    display: none;
+}
+
+.Balance_check_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px 0;
+}
+
+.Balance_heading{
+    font-size: 18px;
+    color: #616e7c;
+    font-weight: 600;
+}
+
+.span_bal{
+    font-size: 20px;
+    color: #ff0b37;
+    font-weight: 800;
+}
+
+.cart_length{
+    font-size: 16px;
+    color: #616e7c;
+    font-weight: 600;  
+}
+
+.check_it{
+    width: 135px;
+    height: 45px;
+    margin: 10px 0;
+    background-color: #0b69ff;
+    border: 0px;
+    outline: none;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media screen and (min-width : 568px) and (max-width: 768px) {
+    .Show_data_bg_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .Show_data_card_container{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 25px;
+    }
+
+    .Desktop_remove_btn{
+        display: none;
+    }
+
+    .Mobile_remove_btn{
+        display: flex;
+    }
+
+    .Balance_check_container{
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .check_it{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 567px) {
+
+    .Show_data_bg_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px 10px;
+    }
+
+    .Show_data_card_container{
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .show_data_image{
+        width: 60%;
+        height: 150px;
+        border-radius: 10px;
+    }
+
+    .show_data_heading{
+        font-size: 12px;
+    }
+
+    .Show_data_price{
+        font-size: 14px;
+    }
+}

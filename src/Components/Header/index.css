@@ -1,0 +1,114 @@
+.header_bg_container{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    overflow: auto;
+}
+
+.Link{
+    text-decoration: none;
+}
+
+.navigation_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.Header_logo{
+    width: 140px;
+    cursor: pointer;
+}
+
+.Dasktop_nav_un_order_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.nav_un_order_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.Home{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color:  #1e293b;
+}
+
+.Home:hover{
+    color:  #ff0b37;
+    font-weight: 800;
+}
+
+.cart_len{
+    color: #ff0b37;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.logout_btn{
+    width: 90px;
+    padding: 5px 10px;
+    background-color: #0967d2;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.Mb_logout_btn{
+    border: none;
+    background-color: transparent;
+    display: none;
+}
+
+.Mb_logout{
+    width: 40px;
+    height: auto;
+}
+
+.Mobile_navigation_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #e6f6ff;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: auto;
+    display: none;
+}
+
+.navigation_image{
+    width: 40px;
+    height: auto;
+}
+
+@media screen and (max-width: 768px){
+    .Mobile_navigation_container{
+        display: flex;
+    }
+
+    .Mb_logout_btn{
+        display: block;
+    }
+
+    .Dasktop_nav_un_order_container{
+        display: none;
+    }
+}

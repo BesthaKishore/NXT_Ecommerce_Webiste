@@ -1,0 +1,121 @@
+
+.Home_main_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+    height: 100vh;
+    gap: 25px;
+    
+    /* background-color: red; */
+}
+
+.Section_contaienr{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 30px;
+    /* background-color: aquamarine; */
+}
+
+.figure_container{
+    margin-left: 20px;
+    width: 40%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+}
+
+.figure_image{
+    width: 100%;
+    cursor: pointer;
+}
+
+.Mobile_figure_image{
+    width: 75%;
+    margin: 10px 0;
+    display: none;
+}
+
+.Section_heading{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #1e293b;
+    line-height: 1.5;
+}
+
+.section_para{
+    font-size: 18px;
+    font-weight: 600;
+    color: #475569;
+    letter-spacing: 1.5;
+    margin: 10px 0;
+}
+
+.shopeNow_btn{
+    width: 145px;
+    height: 45px;
+    margin-top: 20px;
+    background-color: #0967d2;
+    color: #d7dfe9;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .Home_main_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 15px;
+        height: 100vh;
+        gap: 20px; 
+        margin-top: 100px;
+    }
+
+    .Section_container {
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+        padding: 20px; 
+    }
+
+    .Section_heading {
+        font-size: 20px;
+        line-height: 1.4;
+        text-align: center;
+        margin-bottom: 10px; 
+    }
+
+    .section_para {
+        font-size: 14px; 
+        line-height: 1.5;
+        margin: 15px 0; 
+        text-align: center;
+    }
+
+    .Mobile_figure_image {
+        display: block;
+        width: 90%; 
+        margin: 15px 0; 
+    }
+
+    .figure_container {
+        display: none; 
+    }
+
+    .shopNow_btn {
+        width: 160px; 
+        height: 50px;
+        font-size: 16px;
+        margin-top: 15px; 
+    }
+}

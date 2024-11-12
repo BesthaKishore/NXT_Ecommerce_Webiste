@@ -1,0 +1,137 @@
+.Login_bg_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.Login_card_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    /* background-color: red; */
+    padding: 30px;
+    gap: 20px;
+}
+
+.Mobile_divice_logo{
+    width: 75%;
+    display: none;
+}
+
+.websit_login{
+    width: 50%;
+    margin-right: 25px;
+    
+}
+
+.Login_details_container{
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    width: 100%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px ;
+    overflow: auto;
+}
+
+.Laptop_divice_logo{
+    width: 150px;
+    align-self: center;
+    margin: 10px 0;
+}
+
+.Form_contaienr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Search_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
+.label{
+    font-size: 15px;
+    font-weight: 600;
+    color: #475569;
+    line-height: 2;
+}
+
+.search{
+    width: 100%;
+    padding: 8px 10px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #64748b;
+    background-color: #d7dfe9;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.submit_btn{
+    width: 100%;
+    padding: 10px 20px;
+    background-color:  #0b69ff;
+    border-width: 0px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 6px;
+    margin: 6px 0;
+}
+
+.error_msg{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ff0b37;
+}
+
+@media screen and (max-width: 768px){
+    .Login_bg_container{
+        padding: 10px;
+    }
+    
+    .Login_card_container{
+        flex-direction: column;
+        box-shadow: 0px 4px 16px 0px #bfbfbf;
+        border-radius: 10px;
+        overflow: auto;
+        width: 100%;
+    }
+
+    .Mobile_divice_logo{
+        display: block;
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    .websit_login{
+        width: 60%;
+        margin: 20px 0;
+    }
+
+    .Login_details_container{
+        box-shadow: none;
+    }
+
+    .Laptop_divice_logo{
+        display: none;
+    }
+}

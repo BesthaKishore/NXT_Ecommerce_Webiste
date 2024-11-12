@@ -1,0 +1,30 @@
+.similar_product_container{
+    width: 100%;
+    cursor: pointer;
+}
+
+.similar_image{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.similar_product_items_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.similar-name{
+    font-size: 18px;
+    color: #1e293b;
+    font-weight: 800;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+.similar_rating-and-reviews-count{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
